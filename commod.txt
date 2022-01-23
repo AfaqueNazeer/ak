@@ -1,0 +1,37 @@
+$ cd /c 
+$ git config --global user.name "AFAQUE"
+$ git config --global user.email "AFAQUENAZEER0@GMAIL.COM"
+$ git config --list
+$ git config --global core.editor emacs
+$ git config --global core.editor vim
+$ git config user.name
+$ git config user.email
+$ git clone https://github.com/tensorflow/tensorflow.git
+$ rm -rf .git
+$ git add --a
+$ git add .
+$ git add -m "ak"
+$ git add commod.txt
+$ git commit -a -m "Direct commit"
+$ git rm third.txt
+$ git mv first.txt first_renamed
+$ git rm --cached ak.css
+$ git clone https://github.com/pandas-dev/pandas.git mypanda
+$ git log -p
+$ git log -p -3
+$ git log --stat
+$ git log --pretty=oneline
+$ git log --pretty=short
+$ git log --pretty=full
+$ git log --since=2.days
+$ git log --since=2.months
+$ git log --since=2.years
+$ git log --pretty=format:"%h --%an"
+$ git log --pretty=format:"%h --%ae"
+$ git log -p -1
+$ git commit --amend
+
+
+
+
+changed by AFAQUE and me
